@@ -19,6 +19,17 @@ body{
 .hightlight{
     color: #ff008e;
 }
+.section-title{
+    text-align: center;
+}
+.section-title h2{
+    font-size: 40px;
+    display: inline-block;
+    text-transform: uppercase;
+
+    border-bottom: 2px solid #ff008e;
+    margin: 50px 0;
+}
 
 /* navbar  */
 
@@ -97,4 +108,39 @@ nav{
 }
 .banner-right img{
     width: 100%;
+}
+
+/* feature  */
+
+.feature{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+.card{
+    width: 300px;
+    padding: 30px;
+    margin: 0 auto;
+    box-shadow: 0 30px 35px rgba(0,0,0,.2);
+}
+.card .card-icon{
+    background-color: #ff008e;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding: 7px;
+    color: #fff;
+}
+.card h3{
+    color: #ff008e;
+    font-size: 25px;
+}
+.card p{
+    margin: 10px 0;
+    line-height: 1.5;
+}
+.card a{
+    text-decoration: none;
+    color: #ff008e;
 }
