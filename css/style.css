@@ -21,7 +21,6 @@ body{
 
 
 header{
-    height: 100vh;
     background-image: url(/images/cloud.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,4 +45,21 @@ nav{
     color: #fff;
     font-weight: 600;
     padding: 15px 10px;
+}
+
+/* banner  */
+
+.banner{
+    height: calc(100vh - 80px);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.banner-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.banner-right img{
+    width: 100%;
 }
