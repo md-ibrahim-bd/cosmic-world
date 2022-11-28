@@ -43,5 +43,7 @@ nav{
 }
 .navigation li a{
     text-decoration: none;
-
+    color: #fff;
+    font-weight: 600;
+    padding: 15px 10px;
 }
