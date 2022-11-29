@@ -206,7 +206,7 @@ footer{
     font-size: 30px;
 }
 .nav-toggle-icon{
-
+    display: none;
 }
 
 /* Responsive  */
